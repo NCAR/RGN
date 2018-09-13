@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RGN</title>
+  </head>
+  <body>
+<link type="text/css" href="css/smoothness/jquery-ui-1.8.16.custom.css" rel="Stylesheet" />	
+<link type="text/css" href="css/timepicker.css" rel="Stylesheet" />	
+<link type="text/css" href="css/tablesorter.css" rel="Stylesheet" />	
+<link type="text/css" href="css/general.css" rel="Stylesheet" />	
+<link type="text/css" href="css/jquery.qtip.css" rel="Stylesheet" />	
+<link type="text/css" href="css/prettify.css" rel="Stylesheet" />	
+<script type="text/javascript" src="js/prettify.js"></script>
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/array_keys.js"></script>
+<script type="text/javascript" src="js/array_values.js"></script>
+<script type="text/javascript" src="js/strtotime.js"></script>
+<script type="text/javascript" src="js/date.js"></script>
+<script type="text/javascript" src="js/htmlspecialchars.js"></script>
+<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="js/rgn.js"></script>
+<span id="toolbar" class="ui-widget">
+    <span id="toolbar_tw" class="ui-widget">Time Windows:</span>
+    <span id="toolbar_tw_txt" class="ui-widget">
+	<input type="text" ID="cs" value="" />
+	to
+	<input type="text" ID="ce" value="" /> 
+    </span>
+    <button id="toolbar_update">Apply Changes</button>
+    <br/>
+    <span id="toolbar_theme" class="ui-widget">Theme:</span>
+    <span id="toolbar_cluster" class="ui-widget">Cluster:</span>
+    <span id="toolbar_user_txt" class="ui-widget">
+	User:
+	<input type="text" ID="user" value="" /> 
+    </span>
+    <span id="toolbar_host_txt" class="ui-widget">
+	Host:
+	<input type="text" ID="host" value="" /> 
+    </span> 
+    <span id="toolbar_jobid_txt" class="ui-widget">
+	Job ID:
+	<input type="text" ID="jobid" value="" /> 
+    </span>  
+    <span id="toolbar_queue_txt" class="ui-widget">
+	Queue:
+	<input type="text" ID="queue" value="" /> 
+    </span>   
+    <span id="toolbar_rt" class="ui-widget">Runtime (dd:hh:mm):</span>
+    <span id="toolbar_rt_txt" class="ui-widget">
+	<input type="text" ID="rt_min" value="" />
+	to
+	<input type="text" ID="rt_max" value="" /> 
+    </span> 
+    <span id="toolbar_slot" class="ui-widget">Slots:</span>
+    <span id="toolbar_slot_txt" class="ui-widget">
+	<input type="text" ID="slot_min" value="" />
+	to
+	<input type="text" ID="slot_max" value="" /> 
+    </span>  
+</span>
+<hr>
+<span id="content">
+    Javascript failed to start. Please check that javascript is enabled.
+</span>
+</body>
+</html>
